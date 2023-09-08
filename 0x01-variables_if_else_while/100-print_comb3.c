@@ -14,7 +14,7 @@ int main(void)
 
         while (n >= 0 && n < 10)
         {
-		while (i >= 1 && n < 10)
+		while (i >= 1 && i < 10)
                 	putchar(n + '0');
 			putchat(i + '0');
                 	if (i != 9)
