@@ -10,22 +10,23 @@
 
 int main(void)
 {
-        int n, i;
+	int n, x;
 
-        while (n >= 0 && n < 10)
-        {
-		while (i >= 1 && i < 10)
+	while (n >= 0 && n < 10)
+	{
+		while (x >= 1 && x < 10)
 		{
-                	putchar(n + '0');
-			putchar(i + '0');
-                	if (i != 9)
-                	{
-                        	putchar(',');
-                        	putchar(' ');
-                	}
+			putchar(n + '0');
+			putchar(x + '0');
+			if (x != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		x++;
 		}
-                n++;
-        }
-        putchar('\n');
-        return (0);
+	n++;
+	}
+	putchar('\n');
+	return (0);
 }
