@@ -10,22 +10,24 @@
 
 int main(void)
 {
-	int n, x;
+	int i = 0;
+	int j = 1;
 
-	while (n <= 8)
+	while (i <= 8)
 	{
-		while (x <= 9)
+		while (j <= 9)
 		{
-			putchar(n + '0');
-			putchar(x + '0');
-				if (n != 8 || x != 9)
+			putchar(i + '0');
+			putchar(j + '0');
+				if (i != 8 || j != 9)
 				{
 					putchar(',');
 					putchar(' ');
 				}
-				x++;
+				j++;
 		}
-			n++;
+			i++;
+			j = i = 1;
 	}
 	putchar('\n');
 	return (0);
