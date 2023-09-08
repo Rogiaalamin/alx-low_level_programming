@@ -17,11 +17,11 @@ int main(void)
 	{
 		putchar(c);
 		c++;
-		while (x <= 'Z')
-		{
-			putchar(x);
-			x++;
-		}
+	while (x <= 'Z')
+	{
+		putchar(x);
+		x++;
+	}
 	}
 	putchar('\n');
 	return (0);
