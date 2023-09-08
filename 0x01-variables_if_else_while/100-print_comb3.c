@@ -20,7 +20,7 @@ int main(void)
 			{
 				putchar(n + '0');
 				putchar(x + '0');
-				if (x + i != 17)
+				if (x + n != 17)
 				{
 					putchar(',');
 					putchar(' ');
@@ -31,4 +31,5 @@ int main(void)
 		}
 	putchar('\n');
 	return (0);
+	}	
 }
