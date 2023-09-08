@@ -16,20 +16,17 @@ int main(void)
 	{
 		while (x >= 1 && x < 10)
 		{
-			if (n != x && n < x)
-			{
-				putchar(n + '0');
-				putchar(x + '0');
-				if (x + n != 17)
+			putchar(n + '0');
+			putchar(x + '0');
+				if (n != 8 || x != 9)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 				x++;
-			}
-			n++;
 		}
+			n++;
 	}
 	putchar('\n');
-	return (0);	
+	return (0);
 }
