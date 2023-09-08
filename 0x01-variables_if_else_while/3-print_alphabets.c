@@ -11,7 +11,7 @@
 int main(void)
 {
 	char c = 'a';
-	char x = 'A'
+	char x = 'A';
 
 	while (c <= 'z')
 	{
