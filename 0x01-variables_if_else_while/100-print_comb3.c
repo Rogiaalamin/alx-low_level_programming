@@ -15,16 +15,16 @@ int main(void)
 	while (n >= 0 && n < 10)
 	{
 		putchar(n + '0');
-		while (x >= 1 && x < 10)
+	while (x >= 1 && x < 10)
+	{
+		putchar(x + '0');
+		if (x != 9)
 		{
-			putchar(x + '0');
-			if (x != 9)
-			{
-				putchar(',');
-				putchar(' ');
-			}
-		x++;
+			putchar(',');
+			putchar(' ');
 		}
+	x++;
+	}
 	n++;
 	}
 	putchar('\n');
