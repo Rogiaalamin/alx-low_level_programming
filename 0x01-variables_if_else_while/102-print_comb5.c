@@ -11,19 +11,19 @@
 int main(void)
 {
 	int i = 0;
-	int j = 1;
+	int j = 0;
 
-	while (i <= 9)
+	while (i <= 99)
 	{
-		while (j <= 9)
+		while (j <= 99)
 		{
-			putchar(i + '0');
-			putchar(i + '0');
+			putchar(i / 10 + '0');
+			putchar(i % 10 + '0');
 			putchar(' ');
-			putchar(i + '0');
-			putchar(j + '0');
+			putchar(j / 10 + '0');
+			putchar(j % 10 + '0');
 
-			if (i != 8 || j != 9)
+			if (i != 99 || j != 99)
 			{
 				putchar(',');
 				putchar(' ');
@@ -31,7 +31,7 @@ int main(void)
 			j++;
 		}
 		i++;
-		j = i + 1;
+		j = 0;
 	}
 	putchar('\n');
 	return (0);
