@@ -10,30 +10,30 @@
 
 int main(void)
 {
-	int i = 0, j;
+	int first = 0, second ;
 
-	while (i <= 99)
+	while (first <= 99)
 	{
-		i = j;
-		while (j <= 99)
+		first = second;
+		while (second <= 99)
 		{
-			if (j != 0)
+			if (second != first)
 			{
-				putchar(i / 10 + '0');
-				putchar(i % 10 + '0');
+				putchar(first / 10 + '0');
+				putchar(first % 10 + '0');
 				putchar(' ');
-				putchar(j / 10 + '0');
-				putchar(j % 10 + '0');
+				putchar(second / 10 + '0');
+				putchar(second % 10 + '0');
 
-				if (i != 99 || j != 99)
+				if (first != 98 || second != 99)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
-			j++;
+			second++;
 		}
-		i++;
+		first++;
 	}
 	putchar('\n');
 	return (0);
