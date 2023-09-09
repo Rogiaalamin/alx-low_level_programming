@@ -10,11 +10,11 @@
 
 int main(void)
 {
-	int first = 0, second ;
+	int first = 0, second;
 
 	while (first <= 99)
 	{
-		first = second;
+		second = first;
 		while (second <= 99)
 		{
 			if (second != first)
