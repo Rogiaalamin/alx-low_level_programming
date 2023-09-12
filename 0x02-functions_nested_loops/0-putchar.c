@@ -10,6 +10,6 @@
 int main(void)
 
 {
-	putchar("_putchar\n");
+	putchar(char *);
 	return (0);
 }
