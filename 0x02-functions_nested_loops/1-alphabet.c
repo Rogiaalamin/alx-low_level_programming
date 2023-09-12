@@ -5,6 +5,9 @@
  * print_alphabet A function that prints lowercase alphabet
  *
  * Return: Always 0 (Success)
+ *
+ * i: use in for loop to print alphabets
+ *
  */
 
 void print_alphabet(void)
