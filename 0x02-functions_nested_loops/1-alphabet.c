@@ -2,7 +2,7 @@
 /**
  * main - check the code
  *
- *Desription: print lowercase
+ *print_alphabet: it is a function to print lowercase alphapet
  *
  */
 
