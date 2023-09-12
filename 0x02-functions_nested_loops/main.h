@@ -1,5 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
+/**
+ * it is a header file include prototype for taks
+ *
+ */
 
 #include <stdio.h>
 int _putchar(char c);
