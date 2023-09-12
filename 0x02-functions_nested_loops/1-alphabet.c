@@ -1,19 +1,15 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * main - check the code
  *
- * Description: A C program that prints with putchar alphabet, in lowercase.
- *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
-
 void print_alphabet(void);
 
 int main(void)
 {
-	print_alphabet();
-	return (0);
+    print_alphabet();
+    return (0);
 }
 
 void print_alphabet(void);
@@ -22,10 +18,10 @@ void print_alphabet(void);
 
 	while (c <= 'z')
 	{
-		putchar(c);
+		_putchar(c);
 		c++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (c);
 }
 
