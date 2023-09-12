@@ -2,12 +2,13 @@
 /**
  * main - check the code
  *
- * print lowercasr alphapet
+ *Desription: print lowercase
+ *
  */
 
 void print_alphabet(void)
 {
-	char c;
+	char c = 'a';
 
 	while (c <= 'z')
 	{
