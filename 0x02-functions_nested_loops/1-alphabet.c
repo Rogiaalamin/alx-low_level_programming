@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * print_alphabet it is a function to print the alphabet a - z
  *
  */
