@@ -1,12 +1,9 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * print_alphabet A function that prints lowercase alphabet
+ * print_alphabet - A function that print
+ * Description: does my print_alphabet
  *
  * Return: Always 0 (Success)
- *
- * i: use in for loop to print alphabets
  *
  */
 
