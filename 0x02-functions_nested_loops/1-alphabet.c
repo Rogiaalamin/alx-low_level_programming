@@ -5,14 +5,6 @@
  * Return: Always 0.
  */
 void print_alphabet(void);
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
-void print_alphabet(void);
 {
 	char c = 'a';
 
@@ -22,6 +14,5 @@ void print_alphabet(void);
 		c++;
 	}
 	_putchar('\n');
-	return (c);
 }
 
