@@ -3,6 +3,7 @@
 /**
  * it is a header file include prototype for taks
  *
+ * Return: Always 0 (Success)
  */
 #include <stdio.h>
 int _putchar(char c);

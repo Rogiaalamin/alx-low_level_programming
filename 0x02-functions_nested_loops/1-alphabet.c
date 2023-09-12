@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Description: print_alphabet it is a function to print the alphabet a - z
  *
