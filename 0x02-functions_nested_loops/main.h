@@ -4,7 +4,6 @@
  * it is a header file include prototype for taks
  *
  */
-
 #include <stdio.h>
 int _putchar(char c);
 void print_alphabet(void);
