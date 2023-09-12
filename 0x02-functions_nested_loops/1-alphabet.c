@@ -1,8 +1,11 @@
 #include "main.h"
 /**
- * print_alphabet it is a function to print the alphabet a - z
+ * main - Entry point 
  *
- * Return always 0
+ * Description: print_alphabet it is a function to print the alphabet a - z
+ *
+ * Return: Always 0 (Success)
+ *
  */
 
 void print_alphabet(void)
