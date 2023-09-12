@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "main.h"
+#include"main.h"
 /**
  * main - Entry point
  *
@@ -10,11 +9,6 @@
 
 void print_alphabet_x10(void);
 
-int main(void)
-{
-	print_alphabet_x10();
-}
-
 void print_alphabet_x10(void)
 {
 	char c;
@@ -24,9 +18,9 @@ void print_alphabet_x10(void)
 	{
 		for (c = 'a', c <= 'z', c++)
 		{
-			putchar(c);
+			_putchar(c);
 		}
-		putchar('\n');
+		_putchar('\n');
 		return (0);
 	}
 }
