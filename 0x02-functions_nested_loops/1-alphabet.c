@@ -2,7 +2,7 @@
 /**
  * main - check the code
  *
- *print_alphabet: it is a function to print lowercase alphapet
+ * print_alphabet it is a function to print the alphabet a - z
  *
  */
 
@@ -16,4 +16,5 @@ void print_alphabet(void)
 		c++;
 	}
 	_putchar('\n');
+	return (0);
 }
