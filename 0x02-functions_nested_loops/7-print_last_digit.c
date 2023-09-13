@@ -10,14 +10,11 @@
 
 int print_last_digit(int c)
 {
-	int i;
+	int last_dig;
 
 	if (c < 0)
-	{
-		i = (-1) * (c % 10)
-		return (i);
-	}
+		last_dig = -1 * (c % 10);
 	else
-		i = c % 10;
-		return (i);
+		last_dig = c % 10;
+	return (last_dig);
 }
