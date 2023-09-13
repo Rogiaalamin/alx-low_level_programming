@@ -10,10 +10,11 @@
 
 int _abs(int c)
 {
-
 	if (c < 0)
+	{
 		c = c * '-';
 		_putchar('c');
+	}
 	else
 		_putchar('c');
 }
