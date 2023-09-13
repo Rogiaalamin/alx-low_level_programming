@@ -20,11 +20,11 @@ void print_to_98(int n)
 			_putchar(',');
 			_putchar(' ');
 		}
+	}
 	else
 	{
 		for (i = n; i > 98; i--)
 		_putchar(i + 48);
 	}
-	}
-	printf("98\n");
+	printf("98 \n");
 }
