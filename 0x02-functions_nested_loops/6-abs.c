@@ -12,10 +12,9 @@ int _abs(int c)
 {
 	if (c < 0)
 	{
-		c = c * '-';
-		_putchar('c');
+		c = c * '-1';
+		return (c);
 	}
 	else
-		_putchar('c');
-	return (0);
+		return (c);
 }
