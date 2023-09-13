@@ -10,10 +10,21 @@
 
 void print_to_98(int n)
 {
-	for (n = 0; n <= 98; n++)
+	int i;
+
+	if (n < 98)
 	{
-		_putchar(n + 48);
-		_putchar(',');
-		_putchar(' ');
+		for (i = n; i < 98; i++)
+		{
+			_putchar(i + 48);
+			_putchar(',');
+			_putchar(' ');
+		}
+	else
+	{
+		for (i = n; i > 98; i--)
+		_putchar(i + 48);
 	}
+	}
+	printf("98");
 }
