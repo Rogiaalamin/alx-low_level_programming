@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _islower  - A function that check code
- * Description: does my print_alphabet
  *
- * c is a parmeter of function
- * Return: Always 0 (Success)
+ * @c: is a parmeter of function
+ *
+ * Return: return 1 if 'c' lowerecase else return 0 (Success)
  *
  */
 
