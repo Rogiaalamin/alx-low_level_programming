@@ -7,13 +7,12 @@
 
 void print_most_numbers(void)
 {
-	int i = 0;
-	char c[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}
+	char c;
 
-	while (c[i] != 2 && c[i] != 4)
+	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(c[i]);
-		i++;
+		if (c != '2' && c != '4')
+		_putchar(c);
 	}
 	_putchar('\n');
 }
