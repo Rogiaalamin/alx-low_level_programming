@@ -18,8 +18,8 @@ int main(void)
 		else if (((i % 3) && (i % 5)) == 0)
 			printf("FizzBuzz");
 		else
-			printf("%d"; i)
+			printf("%d", i);
 	}
-	peintf("\n";)
+	peintf("\n");
 	return (0);
 }
