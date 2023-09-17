@@ -5,7 +5,7 @@
  *
  * Description: program that prints the numbers from 1 to 100 unless %3&%5 !=0
  *
- * Return: Always 0.
+ * Return: Always 0 (Success).
  */
 
 int main(void)
