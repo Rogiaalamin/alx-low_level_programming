@@ -8,7 +8,7 @@
 void print_numbers(void)
 {
 	int i;
-	char c[] = "0123456789"
+	char c[] = "0123456789";
 
 	for (i = 0; i < 10; i++)
 	{
