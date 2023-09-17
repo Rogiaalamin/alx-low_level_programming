@@ -8,10 +8,11 @@
 void print_numbers(void)
 {
 	int i;
+	char c[] = "0123456789"
 
-	for (i = 48; i <= 57; i++)
+	for (i = 0; i < 10; i++)
 	{
-		_putchar(i);
+		_putchar(c[i]);
 	}
 	_putchar('\n');
 }
