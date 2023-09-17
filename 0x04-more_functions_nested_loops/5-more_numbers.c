@@ -5,7 +5,7 @@
  * Return: Always 0.
  */
 
-void more_numbers(void);
+void more_numbers(void)
 {
 	int i, j;
 	char c[] = "01234567891011121314";
