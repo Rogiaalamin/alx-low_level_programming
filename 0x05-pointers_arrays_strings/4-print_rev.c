@@ -1,16 +1,22 @@
 #include "main.h"
 
 /**
- * _puts - check the code
+ * print_rev - check the code
  *
- * @str: is a parameter
+ * @s: is a parameter
  */
 
-void _puts(char *str)
+void print_rev(char *s)
 {
-	int i;
+	char *ptr;
 
-	for (i = '\0'; i = &str; str--)
-		_putchar(*(str + i));
+	while (*ptr != '\0')
+		ptr++;
+
+	while (ptr != s)
+	{
+		ptr--;
+		_putchar(*ptr);
+	}
 	_putchar('\n');
 }
