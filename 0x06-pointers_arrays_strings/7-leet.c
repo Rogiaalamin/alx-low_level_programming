@@ -18,7 +18,7 @@ char *leet(char *c)
 		{
 			if (*c == key[i] || *c == key[i] + 32)
 			{
-				8c = 48 + value[i];
+				*c = 48 + value[i];
 			}
 		}
 		c++;
