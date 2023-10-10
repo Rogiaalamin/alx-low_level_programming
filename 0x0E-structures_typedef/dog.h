@@ -10,7 +10,7 @@
  * Descreption: just a lone dog syruct
  */
 
-struct dog 
+struct dog
 {
 	char *name;
 	float age;
